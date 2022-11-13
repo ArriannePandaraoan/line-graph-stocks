@@ -2,7 +2,7 @@
   "name": "line-graph-tst",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ArriannePandaraoan.github.io/line-graph-stocks",
+  "homepage": "http://ArriannePandaraoan.github.io/line-graph-stocks",
   "dependencies": {
     "@ant-design/charts": "^1.4.2",
     "@antv/g2plot": "^2.4.22",
