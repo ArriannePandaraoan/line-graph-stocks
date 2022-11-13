@@ -5,7 +5,7 @@ import HomePage from "./components/Homepage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={window.location.pathname || ""}>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
         </Routes>
