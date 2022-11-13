@@ -7,7 +7,7 @@ function App() {
     <>
       <BrowserRouter basename={window.location.pathname || ""}>
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </>
