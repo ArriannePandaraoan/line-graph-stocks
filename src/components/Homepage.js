@@ -57,7 +57,7 @@ const StyledGraphContainer = styled.div`
 
 const StyledBtnContainer = styled.div`
   margin-left: 5px;
-  padding-right: 20px;
+  // padding-right: 20px;
   @media (max-width: 600px) {
     margin-left: 0px;
     display: flex;
