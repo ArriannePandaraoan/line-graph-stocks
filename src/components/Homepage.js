@@ -10,8 +10,14 @@ const StyledContainer = styled.div`
   width: 100%;
   overflow: hidden;
   display: flex;
-  margin-top: 5%;
+  margin-top: 6%;
   justify-content: center;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 `;
 
 const StyledImg = styled.img`
@@ -68,7 +74,7 @@ function HomePage() {
 
       <StyledContainer>
         Get historical data for Meta stock price:
-        <span style={{ marginLeft: "0.5%" }}>
+        <span style={{ marginLeft: "0.5%", marginRight: "4%" }}>
           <Button
             type="primary"
             style={{ marginRight: "5px" }}
