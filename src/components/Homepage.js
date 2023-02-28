@@ -13,10 +13,10 @@ const StyledContainer = styled.div`
   margin-top: 6%;
   justify-content: center;
 
-  @media (max-width: 600px) {
-    flex-direction: column;
-    margin-left: 15px;
-    margin-right: 15px;
+  @media (max-width: 620px) {
+    flex-direction: column !important;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 `;
 
