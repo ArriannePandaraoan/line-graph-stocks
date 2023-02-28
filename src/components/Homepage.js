@@ -76,6 +76,8 @@ const StyledNoteContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     margin-top: 5%;
+    width: 95%;
+    text-align: center;
   }
 `;
 
