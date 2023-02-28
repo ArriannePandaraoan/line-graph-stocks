@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/line-graph-stocks/static/css/main.2e0ea17f.css",
-    "main.js": "/line-graph-stocks/static/js/main.2819ef8b.js",
+    "main.js": "/line-graph-stocks/static/js/main.327e60f3.js",
     "static/js/787.7db71d05.chunk.js": "/line-graph-stocks/static/js/787.7db71d05.chunk.js",
     "static/media/Meta.png": "/line-graph-stocks/static/media/Meta.cce4f0d0e39b0cce6650.png",
     "index.html": "/line-graph-stocks/index.html",
     "main.2e0ea17f.css.map": "/line-graph-stocks/static/css/main.2e0ea17f.css.map",
-    "main.2819ef8b.js.map": "/line-graph-stocks/static/js/main.2819ef8b.js.map",
+    "main.327e60f3.js.map": "/line-graph-stocks/static/js/main.327e60f3.js.map",
     "787.7db71d05.chunk.js.map": "/line-graph-stocks/static/js/787.7db71d05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e0ea17f.css",
-    "static/js/main.2819ef8b.js"
+    "static/js/main.327e60f3.js"
   ]
 }
