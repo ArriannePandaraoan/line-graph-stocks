@@ -57,7 +57,6 @@ const StyledGraphContainer = styled.div`
 
 const StyledBtnContainer = styled.div`
   margin-left: 5px;
-  // padding-right: 20px;
   @media (max-width: 600px) {
     margin-left: 0px;
     display: flex;
@@ -104,9 +103,11 @@ function HomePage() {
 
   return (
     <>
-      <StyledImgContainer>
-        <StyledImg src={MetaPic} />
-      </StyledImgContainer>
+      <StyledContainer>
+        <StyledImgContainer>
+          <StyledImg src={MetaPic} />
+        </StyledImgContainer>
+      </StyledContainer>
 
       {dailyGraph ? (
         <StyledGraphContainer>{daily}</StyledGraphContainer>
