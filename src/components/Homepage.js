@@ -71,7 +71,11 @@ const StyledNoteContainer = styled.div`
   font-size: 10px;
   color: red;
   @media (max-width: 600px) {
-    margin-right: 20px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
   }
 `;
 
@@ -115,7 +119,9 @@ function HomePage() {
       )}
 
       <StyledContainer>
-        Get historical data for Meta stock price:
+        <StyledBtnContainer>
+          Get historical data for Meta stock price:
+        </StyledBtnContainer>
         <StyledBtnContainer>
           {/* <span style={{ marginLeft: "0.5%", marginRight: "4%" }}> */}
           <Button
