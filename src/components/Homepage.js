@@ -15,10 +15,10 @@ const StyledContainer = styled.div`
 
   @media (max-width: 600px) {
     flex-direction: column;
-    margin-left: 20px;
-    padding-right: 20px;
+    // margin-left: 20px;
     margin-top: 20%;
     justify-content: center;
+    box-sizing: border-box;
   }
 `;
 
@@ -31,7 +31,6 @@ const StyledImgContainer = styled.div`
 
   @media (max-width: 600px) {
     flex-direction: column;
-    padding-right: 20px;
     margin-top: 20%;
     justify-content: center;
   }
@@ -70,12 +69,10 @@ const StyledNoteContainer = styled.div`
   font-size: 10px;
   color: red;
   @media (max-width: 600px) {
-    margin-left: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5%;
-    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     text-align: center;
   }
 `;
